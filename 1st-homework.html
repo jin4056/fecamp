@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>1주차 과제 - 회원가입 | 박진성</title>
+   <meta charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="style.css">   
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimun-scale=1.0, maximum-scale=2.0, user-scalable=yes">
+</head>
+    
+<body>
+    
+   <h1>회원가입</h1>
+   
+    <form action="a.html" method="get">
+    <fieldset>
+        <legend>필수 입력 정보</legend>
+    
+            <table>
+               <tr>
+                 <th>
+                 <label for="email">이메일</label>
+                 </th>
+                 <td>
+                 <input type="email" id="email" name="email" placeholder=" sample@sample.com" size="30"> </td>
+         </tr>
+        <tr>
+          <th><label for="password">
+              비밀번호</label></th> <td>
+            <input type="password" id="password" name="password" placeholder=" 국/영문, 숫자를 포함한 8자리 이상" maxlength="12" size="30"></td>
+              </tr>
+      
+       
+        <tr>
+            <th>비밀번호 확인</th>
+            <td> 
+            <input type="password" name="re-password" placeholder=" 비밀번호 재입력" maxlength="14" size="30"> </td>
+        </tr>
+        </table>
+    </fieldset>
+        
+        <br>
+        
+    <fieldset>
+        <legend>선택 입력 정보</legend>
+        
+           <table>
+             <tr><th>전화번호</th> 
+              <td>
+                <select name="phone1">
+                <option value="010">010</option>
+                <option value="02">02</option>
+                <option value="031">031</option>
+                <option value="053">053</option>
+                </select>
+            
+                <input type="tel" name="phone2" size="7" maxlength="4">
+                <input type="tel" name="phone3" size="7" maxlength="4">
+              </td>
+             </tr>
+              <tr>
+               <th>생년월일</th> 
+               <td><input type="date" name="date"></td>
+              </tr>
+          </table>
+        
+    </fieldset>
+    
+    <br>
+            <button type="submit" name="가입"> 가입 </button>
+            <button type="reset" name="취소"> 취소 </button>
+    
+    </form>
+    
+</body>
+</html>

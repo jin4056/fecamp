@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+th {
+    font-size: 9pt;
+    text-align: left;
+    padding: 4px;
+}
+
+button {
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 2px;
+}
+

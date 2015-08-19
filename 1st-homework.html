@@ -31,9 +31,9 @@
       
        
         <tr>
-            <th>비밀번호 확인</th>
+            <th><label for="confirm">비밀번호 확인</label></th>
             <td> 
-            <input type="password" name="re-password" placeholder=" 비밀번호 재입력" maxlength="14" size="30"> </td>
+            <input type="password" name="confirm" id="confirm" placeholder=" 비밀번호 재입력" maxlength="14" size="30"> </td>
         </tr>
         </table>
     </fieldset>
@@ -44,22 +44,22 @@
         <legend>선택 입력 정보</legend>
         
            <table>
-             <tr><th>전화번호</th> 
+               <tr><th><label for="phone1">전화번호</label></th> 
               <td>
-                <select name="phone1">
+                <select name="phone1" id="phone1">
                 <option value="010">010</option>
                 <option value="02">02</option>
                 <option value="031">031</option>
                 <option value="053">053</option>
                 </select>
             
-                <input type="tel" name="phone2" size="7" maxlength="4">
-                <input type="tel" name="phone3" size="7" maxlength="4">
+                <input type="tel" name="phone2" id="phone2" size="7" maxlength="4">
+                <input type="tel" name="phone3" id="phone3" size="7" maxlength="4">
               </td>
              </tr>
               <tr>
-               <th>생년월일</th> 
-               <td><input type="date" name="date"></td>
+                  <th><label for="birth">생년월일</label></th> 
+               <td><input type="date" name="date" id="birth"></td>
               </tr>
           </table>
         

@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+body {
+    font-size: 40px;
+    line-height: 2;}
+
+.hbox { width: 200px;
+       height: 200px;
+          background-color: aqua;
+          font-size:10px ;
+}
+
